@@ -9,14 +9,12 @@ def main():
           "USAGE: python main.py <path_to_book> \n", 
           f"Expected 2 inputs, but received {len(sys.argv)}")
     sys.exit(1)
-  # path = "./books/frankenstein.txt"
   else:
     path = sys.argv[1]
     text = get_book_text(path)
     count = get_character_count(text)
     letters = sorted_dictionary(count)
     report(text, path, letters)
-  # get_word_count(text)
 
 def get_book_text(path):
   with open(path) as f:
