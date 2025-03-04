@@ -1,6 +1,6 @@
 # bookbot
 
-BookBot is my first [Boot.dev](https://www.boot.dev) project!
+BookBot is my first [Boot.dev](https://www.boot.dev) project! This was written in python, and requires python 3 to be installed in order to run properly.
 
 ## How to test:
 * Clone the repo locally

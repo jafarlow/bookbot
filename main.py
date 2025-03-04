@@ -6,7 +6,7 @@ from stats import sorted_dictionary
 def main():
   if len(sys.argv) != 2:
     print("Input requires relative path to the book you would like to analyze \n", 
-          "USAGE: python main.py <path_to_book> \n", 
+          "USAGE: python3 main.py <path_to_book> \n", 
           f"Expected 2 inputs, but received {len(sys.argv)}")
     sys.exit(1)
   else:
